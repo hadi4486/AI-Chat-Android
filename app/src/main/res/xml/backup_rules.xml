@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- The encrypted API key store must never leave this device via backup/restore. -->
+    <exclude domain="sharedpref" path="secure_key_store.xml" />
+    <exclude domain="sharedpref" path="secure_key_store.preferences_pb" />
+</full-backup-content>

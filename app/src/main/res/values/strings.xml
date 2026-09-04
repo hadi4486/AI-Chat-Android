@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دستیار هوش مصنوعی</string>
+
+    <!-- Home -->
+    <string name="home_greeting_morning">صبح بخیر</string>
+    <string name="home_greeting_noon">ظهر بخیر</string>
+    <string name="home_greeting_afternoon">عصر بخیر</string>
+    <string name="home_greeting_evening">شب بخیر</string>
+    <string name="home_new_chat">گفتگوی جدید</string>
+    <string name="home_recent_conversations">گفتگوهای اخیر</string>
+    <string name="home_search_hint">جستجو در گفتگوها…</string>
+    <string name="home_no_conversations_title">هنوز گفتگویی نداری</string>
+    <string name="home_no_conversations_subtitle">یک گفتگوی جدید شروع کن تا اینجا نمایش داده شود</string>
+    <string name="home_status_connected">اتصال برقرار است</string>
+    <string name="home_status_error">خطای اتصال</string>
+    <string name="home_status_checking">در حال بررسی اتصال…</string>
+    <string name="home_status_not_configured">تنظیم نشده</string>
+    <string name="home_pinned">سنجاق‌شده</string>
+
+    <!-- Chat -->
+    <string name="chat_input_hint">پیام خود را بنویس…</string>
+    <string name="chat_send">ارسال</string>
+    <string name="chat_stop_generating">توقف تولید پاسخ</string>
+    <string name="chat_retry">تلاش دوباره</string>
+    <string name="chat_regenerate">بازتولید پاسخ</string>
+    <string name="chat_edit">ویرایش</string>
+    <string name="chat_copy">کپی</string>
+    <string name="chat_copied">کپی شد</string>
+    <string name="chat_share">اشتراک‌گذاری</string>
+    <string name="chat_delete">حذف پیام</string>
+    <string name="chat_clear_conversation">پاک کردن گفتگو</string>
+    <string name="chat_clear_conversation_confirm">همه پیام‌های این گفتگو حذف شوند؟</string>
+    <string name="chat_new_conversation_title">گفتگوی بدون عنوان</string>
+    <string name="chat_typing">در حال نوشتن…</string>
+    <string name="chat_empty_title">گفتگو را شروع کن</string>
+    <string name="chat_empty_subtitle">هر سوالی داری بپرس؛ پاسخ از مدل انتخابی‌ات دریافت می‌شود</string>
+    <string name="chat_menu_export_json">خروجی JSON</string>
+    <string name="chat_menu_export_markdown">خروجی Markdown</string>
+    <string name="chat_menu_pin">سنجاق کردن</string>
+    <string name="chat_menu_unpin">برداشتن سنجاق</string>
+
+    <!-- Settings -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_section_provider">سرویس هوش مصنوعی</string>
+    <string name="settings_provider_name">نام سرویس</string>
+    <string name="settings_base_url">Base URL</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_model">مدل</string>
+    <string name="settings_model_refresh">به‌روزرسانی لیست مدل‌ها</string>
+    <string name="settings_model_manual_hint">اگر سرویس لیست مدل‌ها را پشتیبانی نمی‌کند، نام مدل را دستی وارد کن</string>
+    <string name="settings_section_generation">تنظیمات تولید پاسخ</string>
+    <string name="settings_temperature">Temperature</string>
+    <string name="settings_max_tokens">حداکثر توکن</string>
+    <string name="settings_system_prompt">System Prompt</string>
+    <string name="settings_system_prompt_hint">دستورالعمل رفتار مدل (اختیاری)</string>
+    <string name="settings_section_appearance">ظاهر برنامه</string>
+    <string name="settings_theme_light">روشن</string>
+    <string name="settings_theme_dark">تیره</string>
+    <string name="settings_theme_system">پیش‌فرض سیستم</string>
+    <string name="settings_dynamic_theme">تم پویا (Material You)</string>
+    <string name="settings_section_chat">چت</string>
+    <string name="settings_streaming">دریافت پاسخ به‌صورت زنده (Streaming)</string>
+    <string name="settings_auto_save">ذخیره خودکار گفتگوها</string>
+    <string name="settings_markdown">نمایش Markdown</string>
+    <string name="settings_send_with_enter">ارسال با کلید Enter</string>
+    <string name="settings_section_connection">اتصال</string>
+    <string name="settings_test_connection">تست اتصال</string>
+    <string name="settings_test_connection_running">در حال تست اتصال…</string>
+    <string name="settings_test_connection_success">اتصال با موفقیت برقرار شد</string>
+    <string name="settings_test_connection_failure">اتصال برقرار نشد</string>
+    <string name="settings_section_security">امنیت</string>
+    <string name="settings_secure_storage_note">API Key با رمزنگاری Android Keystore ذخیره می‌شود</string>
+    <string name="settings_clear_api_key">حذف API Key</string>
+    <string name="settings_clear_api_key_confirm">کلید ذخیره‌شده برای همیشه حذف شود؟</string>
+    <string name="settings_client_side_warning">توجه: چون این اپلیکیشن سمت کاربر (Client-Side) اجرا می‌شود، نگهداری کلید در برنامه هیچ‌وقت به اندازه‌ی نگهداری آن در یک بک‌اند امن نیست. کلید فقط روی همین دستگاه و به‌صورت رمزنگاری‌شده نگهداری می‌شود.</string>
+    <string name="settings_section_about">درباره برنامه</string>
+    <string name="settings_about_version">نسخه برنامه</string>
+    <string name="settings_about_developer">توسعه‌دهنده</string>
+    <string name="settings_about_libraries">کتابخانه‌های متن‌باز</string>
+    <string name="settings_show_key">نمایش کلید</string>
+    <string name="settings_hide_key">پنهان کردن کلید</string>
+    <string name="settings_saved">تغییرات ذخیره شد</string>
+
+    <!-- History -->
+    <string name="history_title">تاریخچه گفتگوها</string>
+    <string name="history_search_hint">جستجو در تمام گفتگوها…</string>
+    <string name="history_empty">نتیجه‌ای پیدا نشد</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_api_key">API Key نامعتبر است</string>
+    <string name="error_unauthorized">دسترسی غیرمجاز؛ API Key را بررسی کن</string>
+    <string name="error_forbidden">دسترسی مسدود شده است</string>
+    <string name="error_bad_request">درخواست نامعتبر بود</string>
+    <string name="error_rate_limit">تعداد درخواست‌ها بیش از حد مجاز است؛ کمی صبر کن</string>
+    <string name="error_timeout">زمان پاسخ‌گویی سرور به پایان رسید</string>
+    <string name="error_no_internet">اتصال اینترنت برقرار نیست</string>
+    <string name="error_server">خطایی در سرور رخ داد</string>
+    <string name="error_invalid_base_url">اتصال برقرار نشد. API Key یا Base URL را بررسی کنید.</string>
+    <string name="error_empty_response">پاسخی از سرور دریافت نشد</string>
+    <string name="error_unsupported_model">این مدل توسط سرویس پشتیبانی نمی‌شود</string>
+    <string name="error_not_configured">ابتدا در تنظیمات، API Key و Base URL را وارد کن</string>
+    <string name="error_unknown">خطای غیرمنتظره‌ای رخ داد</string>
+
+    <!-- Common -->
+    <string name="action_ok">تایید</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_save">ذخیره</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_retry">تلاش دوباره</string>
+    <string name="content_desc_settings">تنظیمات</string>
+    <string name="content_desc_back">بازگشت</string>
+    <string name="content_desc_search">جستجو</string>
+    <string name="content_desc_send">ارسال پیام</string>
+    <string name="content_desc_more">گزینه‌های بیشتر</string>
+    <string name="content_desc_pin">سنجاق کردن گفتگو</string>
+    <string name="content_desc_copy_code">کپی کد</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Chat bubble body -->
+    <path
+        android:fillColor="#F5F1EA"
+        android:pathData="M66,30 H134 A36,36 0 0 1 170,66 V104 A36,36 0 0 1 134,140 H100 L82,168 L74,140 H66 A36,36 0 0 1 30,104 V66 A36,36 0 0 1 66,30 Z" />
+
+    <!-- AI spark cluster -->
+    <path
+        android:fillColor="#E8B04B"
+        android:pathData="M152,33 A13,13 0 1 1 151.99,33 Z" />
+    <path
+        android:fillColor="#E8B04B"
+        android:pathData="M175,60 A6,6 0 1 1 174.99,60 Z" />
+</vector>
