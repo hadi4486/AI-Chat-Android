@@ -1,3 +1,5 @@
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 package com.aichat.assistant.presentation.components
 
 import androidx.compose.foundation.horizontalScroll

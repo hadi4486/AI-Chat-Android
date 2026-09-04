@@ -1,3 +1,4 @@
+import androidx.compose.runtime.getValue
 package com.aichat.assistant.presentation.components
 
 import androidx.compose.animation.animateColorAsState

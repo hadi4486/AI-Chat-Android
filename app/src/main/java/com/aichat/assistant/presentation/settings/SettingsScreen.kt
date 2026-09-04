@@ -1,3 +1,6 @@
+import androidx.compose.material3.ExposedDropdownMenu
+import androidx.compose.material3.ExposedDropdownMenuBox
+import androidx.compose.material3.ExposedDropdownMenuDefaults
 package com.aichat.assistant.presentation.settings
 
 import androidx.compose.foundation.layout.Arrangement
