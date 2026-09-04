@@ -1,6 +1,6 @@
-import androidx.compose.runtime.getValue
 package com.aichat.assistant.presentation.components
 
+import androidx.compose.runtime.getValue
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.RepeatMode
