@@ -1,8 +1,7 @@
 package com.aichat.assistant.presentation.settings
 
-import androidx.compose.material3.ExposedDropdownMenu
 import androidx.compose.material3.ExposedDropdownMenuBox
-import androidx.compose.material3.ExposedDropdownMenuDefaults
+import androidx.compose.material3.DropdownMenu
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -25,6 +24,7 @@ import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExposedDropdownMenuBox
+import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -319,7 +319,7 @@ private fun ModelDropdown(
                 }
             }
         )
-        androidx.compose.material3.ExposedDropdownMenu(
+        DropdownMenu(
             expanded = expanded && availableModels.isNotEmpty(),
             onDismissRequest = { expanded = false }
         ) {

@@ -36,7 +36,7 @@ private object Routes {
 @Composable
 fun AppNavGraph(container: AppContainer) {
     val navController: NavHostController = rememberNavController()
-    val slideSpec = Motion.standardTween<Float>()
+    val slideSpec = Motion.standardTween<androidx.compose.ui.unit.IntOffset>()
 
     NavHost(
         navController = navController,
